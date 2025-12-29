@@ -37,7 +37,7 @@ kotlin-process = "1.5.1"
 hidden-api-stub = "4.3.3"
 shizuku = "13.1.5"
 hiddenapibypass = "6.1"
-binary-compatibility-validator = "0.17.0"
+binary-compatibility-validator = "0.18.1"
 semver-parser = "3.0.0"
 
 [libraries]
