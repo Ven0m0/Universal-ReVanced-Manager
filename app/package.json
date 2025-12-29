@@ -2,6 +2,6 @@
   "name": "app",
   "private": false,
   "devDependencies": {
-    "@anolilab/multi-semantic-release": "^1.1.10"
+    "@anolilab/multi-semantic-release": "^3.2.2"
   }
 }
