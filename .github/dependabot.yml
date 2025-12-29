@@ -3,11 +3,15 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
-    groups:
-      github-actions-all:
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-          - "patch"
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    ignore:
+      - dependency-name: "org.jetbrains.kotlin:*"
+        update-types: ["version-update:semver-patch"]  # avoid noisy patch bumps
