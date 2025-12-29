@@ -53,7 +53,7 @@ jobs:
           echo "Found APK at $APK_PATH"
 
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: universal-revanced-manager-dev-${{ github.sha }}
           retention-days: 14
