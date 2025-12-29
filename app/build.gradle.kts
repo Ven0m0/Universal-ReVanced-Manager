@@ -74,7 +74,7 @@ dependencies {
     implementation(libs.revanced.library)
     arscLib("io.github.reandroid:ARSCLib:1.3.8")
     implementation(files(strippedArscLib))
-    implementation("androidx.documentfile:documentfile:1.0.1")
+    implementation("androidx.documentfile:documentfile:1.1.0")
 
     // Downloader plugins
     implementation(project(":api"))
