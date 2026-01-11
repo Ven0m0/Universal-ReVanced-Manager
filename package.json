@@ -5,7 +5,7 @@
     "app"
   ],
   "devDependencies": {
-    "@anolilab/multi-semantic-release": "^3.2.2",
+    "@anolilab/multi-semantic-release": "^4.0.0",
     "semantic-release": "^25.0.2"
   }
 }
