@@ -1,7 +1,7 @@
 [versions]
 ktx = "1.17.0"
 material3 = "1.4.0"
-ui-tooling = "1.10.0"
+ui-tooling = "1.10.1"
 viewmodel-lifecycle = "2.10.0"
 splash-screen = "1.2.0"
 activity = "1.12.2"
